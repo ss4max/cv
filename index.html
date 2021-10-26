@@ -4,158 +4,244 @@
 <head>
   <meta charset="utf-8">
   <title>Max Williams</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <div class="title-container">
-    <img class="top-car" src="images/e36.png" alt="e36 image">
-    <h1>I'm Max</h1>
-    <h2>A computer engineer</h2>
-    <p>I love anything with a computer inside and tinkering.</p>
-    <img class="top-computer" src="images/computer.png" alt="computer image">
+  <div id="Navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Max</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-  <div class="about-container">
-    <div class="profile">
-      <img class="profile-pic" src="images/instruments.jpg" alt="intruments'pic">
-      <img class="profile-pic" src="images/Visa Pic.jpg" alt="profile-Pic">
-      <img class="profile-pic" src="images/teaching.png" alt="teaching-pic">
-      <h2>Hello.</h2>
-      <p class="about-me">I have a degree in Computer Engineering from Florida International University.
-        I have studied in YWAM for 2 years completing the DTS, BCC, and SOM.
-        I play many instruments; tuba, trombone, piano and violin, and I love playing classical music.
-        I am a self-taught mechanic. I enjoy customizing, repairing, and making cars my own special way.
-        I am currently an English and music teacher in Thailand. I also do various events at the local churches and special classes after school.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <h3 style="color: #11999E;">Computers</h3>
-        <p>I have built many PCs and custom water loops. I have set up computer classrooms for private schools.</p>
-        <div class="photo-group">
-          <a class="pic-link" href="images/Computer1.jpg">
-            <img class="skill-pic" src="images/Computer1.jpg" alt="computer-Pic1">
-          </a>
-          <a class="pic-link" href="images/Computer2.jpg">
-            <img class="skill-pic" src="images/Computer2.jpg" alt="computer-Pic2">
-          </a>
-          <a class="pic-link" href="images/Computer3.jpg">
-            <img class="skill-pic" src="images/Computer3.jpg" alt="computer-Pic3">
-          </a>
-          <a class="pic-link" href="images/Computer4.jpg">
-            <img class="skill-pic" src="images/Computer4.jpg" alt="computer-Pic4">
-          </a>
-        </div>
+
+  <div id="title" class="black-background">
+    <div class="row">
+      <div class="col-lg-4 center">
+        <img class="pic hide" src="images/e36.png" alt="e36 image">
       </div>
-      <div class="skill-row">
-        <h3 style="color: #11999E;">Programming</h3>
-        <p>I have learned C++, C, Assembly, Java, from my university. I have learned HTML, CSS, JavaScript, and python from Udemy online classes.</p>
-        <div class="photo-group">
-          <a class="pic-link" href="images/programming1.jpg">
-            <img class="skill-pic" src="images/programming1.jpg" alt="programming-Pic1">
-          </a>
-          <a class="pic-link" href="images/programming2.jpg">
-            <img class="skill-pic" src="images/programming2.jpg" alt="programming-Pic2">
-          </a>
-          <a class="pic-link" href="images/programming3.jpg">
-            <img class="skill-pic" src="images/programming3.jpg" alt="programming-Pic3">
-          </a>
-          <a class="pic-link" href="images/programming4.jpg">
-            <img class="skill-pic" src="images/programming4.jpg" alt="programming-Pic4">
-          </a>
-        </div>
+      <div class="col-lg-4 center">
+        <h1>I'm Max</h1>
+        <h2>A computer engineer</h2>
+        <p>I love anything with a computer inside and tinkering.</p>
+
       </div>
-      <div class="skill-row">
-        <h3 style="color: #11999E;">Multilingual</h3>
-        <p>Being born in the United States of America, I am a native English speaker. Having lived in Thailand for 3 years, I am also fluent in Thai.</p>
-        <div class="photo-group">
-          <a class="pic-link" href="images/multilingual1.jpg">
-            <img class="skill-pic" src="images/multilingual1.jpg" alt="multilingual-Pic1">
-          </a>
-          <a class="pic-link" href="images/multilingual2.jpg">
-            <img class="skill-pic" src="images/multilingual2.jpg" alt="multilingual-Pic2">
-          </a>
-          <a class="pic-link" href="images/multilingual3.jpg">
-            <img class="skill-pic" src="images/multilingual3.jpg" alt="multilingual-Pic3">
-          </a>
-          <a class="pic-link" href="images/multilingual4.jpg">
-            <img class="skill-pic" src="images/multilingual4.jpg" alt="multilingual-Pic4">
-          </a>
-        </div>
+      <div class="col-lg-4 center">
+        <img class="pic hide" src="images/computer.png" alt="computer image">
       </div>
-      <div class="skill-row">
-        <h3 style="color: #11999E;">Teaching</h3>
-        <p>I have been teaching for over 4 years. I have taught all ages. I have taught music, English, and computer programming.</p>
-        <div class="photo-group">
-          <a class="pic-link" href="images/teaching1.jpg">
-            <img class="skill-pic" src="images/Teaching1.jpg" alt="teaching-Pic1">
-          </a>
-          <a class="pic-link" href="images/teaching2.jpg">
-            <img class="skill-pic" src="images/Teaching2.jpg" alt="teaching-Pic2">
-          </a>
-          <a class="pic-link" href="images/teaching3.jpg">
-            <img class="skill-pic" src="images/Teaching3.jpg" alt="teaching-Pic3">
-          </a>
-          <a class="pic-link" href="images/teaching4.jpg">
-            <img class="skill-pic" src="images/Teaching4.jpg" alt="teaching-Pic4">
-          </a>
-        </div>
-      </div>
-      <div class="skill-row">
-        <h3 style="color: #11999E;">Mechanics</h3>
-        <p>Since my first car over 15 years ago I have repaired, tuned, and modified anything I could get my hands on.</p>
-        <div class="photo-group">
-          <a class="pic-link" href="images/mechanic1.jpg">
-            <img class="skill-pic" src="images/mechanic1.jpg" alt="mechanic-Pic1">
-          </a>
-          <a class="pic-link" href="images/mechanic2.jpg">
-            <img class="skill-pic" src="images/mechanic2.jpg" alt="mechanic-Pic2">
-          </a>
-          <a class="pic-link" href="images/mechanic3.jpg">
-            <img class="skill-pic" src="images/mechanic3.jpg" alt="mechanic-Pic3">
-          </a>
-          <a class="pic-link" href="images/mechanic4.jpg">
-            <img class="skill-pic" src="images/mechanic4.jpg" alt="mechanic-Pic4">
-          </a>
-        </div>
-      </div>
-      <div class="skill-row">
-        <h3 style="color: #11999E;">Musician</h3>
-        <p>I have been playing music my whole life from beginning in private school, to public schools, and professionally. I play piano, trombone, and tuba.</p>
-        <div class="photo-group">
-          <a class="pic-link" href="images/music1.jpg">
-            <img class="skill-pic" src="images/music1.jpg" alt="music-Pic1">
-          </a>
-          <a class="pic-link" href="images/music2.jpg">
-            <img class="skill-pic" src="images/music2.jpg" alt="music-Pic2">
-          </a>
-          <a class="pic-link" href="images/music3.jpg">
-            <img class="skill-pic" src="images/music3.jpg" alt="music-Pic3">
-          </a>
-          <a class="pic-link" href="images/music4.jpg">
-            <img class="skill-pic" src="images/music4.jpg" alt="music-Pic4">
-          </a>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Don't hesitate to contact me using the button below or visit my website: <a href="https://www.tothemax.info/">tothemax.info</a></h3>
-      <a class="BUTTON_SQM" href="mailto:max@tothemax.info">Contact Me</a>
     </div>
   </div>
 
+  <div id="about" class="blue-background">
+    <h1>About Me</h1>
+    <div class="row">
+      <div class="col-lg-4 center">
+        <img class="pic hide" src="images/instruments.jpg" alt="intruments'pic">
+      </div>
+      <div class="col-lg-4 center">
+        <img class="pic" src="images/Visa Pic.jpg" alt="profile-Pic">
+      </div>
+      <div class="col-lg-4 center">
+        <img class="pic hide" src="images/teaching.png" alt="teaching-pic">
+      </div>
+    </div>
+    <h2>Hello</h2>
+    <p>I have a degree in Computer Engineering from Florida International University.
+      I have studied in YWAM for 2 years completing the DTS, BCC, and SOM.
+      I play many instruments; tuba, trombone, piano and violin, and I love playing classical music.
+      I am a self-taught mechanic. I enjoy customizing, repairing, and making cars my own special way.
+      I am currently an English and music teacher in Thailand. I also do various events at the local churches and special classes after school.</p>
+  </div>
+
+  <div id="skills" class="black-background">
+    <h1>My Skills</h1>
+    <h2>Computers</h2>
+    <p>I have built many PCs and custom water loops. I have set up computer classrooms for private schools.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/Computer1.jpg">
+          <img class="pic" src="images/Computer1.jpg" alt="computer-Pic1">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/Computer2.jpg">
+          <img class="pic" src="images/Computer2.jpg" alt="computer-Pic2">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/Computer3.jpg">
+          <img class="pic" src="images/Computer3.jpg" alt="computer-Pic3">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/Computer4.jpg">
+          <img class="pic" src="images/Computer4.jpg" alt="computer-Pic4">
+        </a>
+      </div>
+    </div>
+
+    <h2>Programming</h2>
+    <p>I have learned C++, C, Assembly, Java, from my university. I have learned HTML, CSS, JavaScript, and python from Udemy online classes.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/programming1.jpg">
+          <img class="pic" src="images/programming1.jpg" alt="programming-Pic1">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/programming2.jpg">
+          <img class="pic" src="images/programming2.jpg" alt="programming-Pic2">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/programming3.jpg">
+          <img class="pic" src="images/programming3.jpg" alt="programming-Pic3">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/programming4.jpg">
+          <img class="pic" src="images/programming4.jpg" alt="programming-Pic4">
+        </a>
+      </div>
+    </div>
+
+    <h2>Multilingual</h2>
+    <p>Being born in the United States of America, I am a native English speaker. Having lived in Thailand for 3 years, I am also fluent in Thai.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/multilingual1.jpg">
+          <img class="pic" src="images/multilingual1.jpg" alt="multilingual-Pic1">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/multilingual2.jpg">
+          <img class="pic" src="images/multilingual2.jpg" alt="multilingual-Pic2">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/multilingual3.jpg">
+          <img class="pic" src="images/multilingual3.jpg" alt="multilingual-Pic3">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/multilingual4.jpg">
+          <img class="pic" src="images/multilingual4.jpg" alt="multilingual-Pic4">
+        </a>
+      </div>
+    </div>
 
 
+    <h2>Teaching</h2>
+    <p>I have been teaching for over 4 years. I have taught all ages. I have taught music, English, and computer programming.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/teaching1.jpg">
+          <img class="pic" src="images/teaching1.jpg" alt="teaching-Pic1">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/teaching2.jpg">
+          <img class="pic" src="images/teaching2.jpg" alt="teaching-Pic2">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/teaching3.jpg">
+          <img class="pic" src="images/teaching3.jpg" alt="teaching-Pic3">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/teaching4.jpg">
+          <img class="pic" src="images/teaching4.jpg" alt="teaching-Pic4">
+        </a>
+      </div>
+    </div>
+
+
+    <h2>Mechanics</h2>
+    <p>Since my first car over 15 years ago I have repaired, tuned, and modified anything I could get my hands on.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/mechanic1.jpg">
+          <img class="pic" src="images/mechanic1.jpg" alt="mechanic-Pic1">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/mechanic2.jpg">
+          <img class="pic" src="images/mechanic2.jpg" alt="mechanic-Pic2">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/mechanic3.jpg">
+          <img class="pic" src="images/mechanic3.jpg" alt="mechanic-Pic3">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/mechanic4.jpg">
+          <img class="pic" src="images/mechanic4.jpg" alt="mechanic-Pic4">
+        </a>
+      </div>
+    </div>
+
+    <h2>Musician</h2>
+    <p>I have been playing music my whole life from beginning in private school, to public schools, and professionally. I play piano, trombone, and tuba.</p>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/music1.jpg">
+          <img class="pic" src="images/music1.jpg" alt="music-Pic1">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/music2.jpg">
+          <img class="pic" src="images/music2.jpg" alt="music-Pic2">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/music3.jpg">
+          <img class="pic" src="images/music3.jpg" alt="music-Pic3">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 center">
+        <a class="pic-link" href="images/music4.jpg">
+          <img class="pic" src="images/music4.jpg" alt="music-Pic4">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="contact-me" class="blue-background">
+    <h2>Contact Me</h2>
+    <p>Don't hesitate to contact me using the button below or visit my website: <a href="https://www.tothemax.info/">tothemax.info</a></p>
+    <a class="BUTTON_SQM" href="mailto:max@tothemax.info">Email Me</a>
+  </div>
 </body>
 <footer>
-  <div class="bottom-container">
+  <div id="footer">
     <a class="footer-link" href="https://www.facebook.com/ss4max">Facebook</a>
     <a class="footer-link" href="https://www.instagram.com/ss86max/">Instagram</a>
     <a class="footer-link" href="https://www.tothemax.info">My Website</a>

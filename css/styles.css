@@ -76,6 +76,10 @@ p {
   .hide {
     display: none;
   }
+
+  p{
+    font-size: 1.3rem;
+  }
 }
 
 /* About Me */
@@ -112,10 +116,16 @@ p {
   z-index: 1;
 }
 
-/* .image-row {
-  height: 250px;
-} */
+/* Contact Me */
+#contact-me p{
+  text-align: center;
+}
+
 /* Footer */
 #footer {
   padding-top: 1%;
+}
+
+#footer p{
+  text-align: center;
 }
